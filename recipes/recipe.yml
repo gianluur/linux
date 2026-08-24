@@ -34,6 +34,7 @@ modules:
           - lihaohong/yazi
           - jdxcode/mise
           - aquacash5/nerd-fonts
+          - deltacopy/darkly
 
     install:
       packages:
@@ -99,7 +100,10 @@ modules:
         - kwin-effects-better-blur-dx
         - kwin-effects-better-blur-dx-x11
         - plasma-panel-colorizer
-        - bazaar
+        - darkly
+        - plasma-discover
+        - plasma-discover-rpm-ostree
+        - plasma-discover-flatpak
 
     remove:
       packages:
@@ -111,6 +115,7 @@ modules:
         - filelight
         - krfb
         - krdc
+        - bazaar
 
         # Bazzite Debloating
         - waydroid
@@ -156,11 +161,7 @@ modules:
     scripts:
       - setup_shell.sh
     snippets:
-      - chmod +x /etc/bluebuild/setup-userspace.sh
-      - chmod +x /etc/bluebuild/install-apps.sh
-      - chmod +x /etc/bluebuild/setup-virtualization.sh
-      - chmod +x /etc/bluebuild/setup-vpn.sh
-      - chmod +x /etc/bluebuild/setup-vpn.sh
+      - chmod +x /etc/bluebuild/*
       - dnf install -y --setopt=tsflags=noscripts proton-vpn-gnome-desktop
       - dnf install -y --setopt=tsflags=noscripts netbird netbird-ui gtk4 webkitgtk6.0 xdg-utils
 

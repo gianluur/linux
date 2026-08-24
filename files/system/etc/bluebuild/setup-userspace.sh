@@ -22,6 +22,9 @@ echo "=== Configuring Netbird ==="
 "$SCRIPT_DIR/setup-netbird.sh"
 echo "=== Done === "
 
+echo "=== Configuring fonts ==="
+"$SCRIPT_DIR/setup-netbird.sh"
+echo "=== Done === "
 
 echo "🔧 Configuring virtualization..."
 "$SCRIPT_DIR/setup-virtualization.sh"
