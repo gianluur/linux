@@ -35,6 +35,7 @@ modules:
           - jdxcode/mise
           - aquacash5/nerd-fonts
           - deltacopy/darkly
+          - vcalles/wavetask
 
     install:
       packages:
