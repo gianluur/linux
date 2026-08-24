@@ -116,6 +116,9 @@ modules:
         - krfb
         - krdc
         - bazaar
+        - PackageKit
+        - PackageKit-glib
+        - plasma-discover-packagekit # if it got pulled in
 
         # Bazzite Debloating
         - waydroid
