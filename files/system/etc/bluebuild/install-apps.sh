@@ -10,10 +10,9 @@ FLATPAKS=(
     org.kde.gwenview # Image Viewer
     org.videolan.VLC # Audio & Video Player
     md.obsidian.Obsidian # Notes
-    org.localsend.localsend_app # File Sharing
     dev.vencord.Vesktop # Discord
     it.mijorus.gearlever # AppImage handling
-    com.ranfdev.DistroShelf # Distrobox handling
+    io.github.DenysMb.Kontainer # Distrobox handling
     com.github.tchx84.Flatseal # Flatpak permissions
     org.fedoraproject.MediaWriter # ISO Burner
     org.freedesktop.Piper # Logitech
