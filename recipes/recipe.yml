@@ -35,7 +35,6 @@ modules:
           - jdxcode/mise
           - aquacash5/nerd-fonts
           - deltacopy/darkly
-          - isac322/krema
 
     install:
       packages:
@@ -105,7 +104,6 @@ modules:
         - plasma-discover
         - plasma-discover-rpm-ostree
         - plasma-discover-flatpak
-        - krema
 
     remove:
       packages:
